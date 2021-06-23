@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:darkgray;"></body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h1 style="font-family: Arial;font-size: 60px; text-align:center"> <b>Weiner Dog X Rat</b></h1>
+<h2 style="font-size: 40px; font-family: Arial; text-align:center"><i>"The fanfiction we have all been wating for"</i></h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://static01.nyt.com/images/2019/01/24/books/24Wattpad-item/merlin_80073550_2960c7d5-bea2-4c91-a478-e88cc8b4234b-superJumbo.jpg" style="width:100%">
+  <img class="mySlides" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/love-and-care-my-city-royalty-free-image-1616634469." style="width:100%">
+  <img class="mySlides" src="https://i2.wp.com/ncbiinsights.ncbi.nlm.nih.gov/wp-content/uploads/2021/02/iStock-176430993-e1612905683137.jpg?resize=1108%2C737&ssl=1" style="width:100%">
+  <img class="mySlides" src="https://s4.reutersmedia.net/resources/r/?m=02&d=20160411&t=2&i=1132006544&w=&fh=545&fw=810&ll=&pl=&sq=&r=LYNXNPEC3A16Z" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
+
+  <h3 style="font-size: 40px; font-family: Arial; text-align:center"><b>About the fanfiction</b></h3>
+  <p style="font-size: 27px; font-family:Arial; text-align:center">This awesome and thrilling fanfiction has eveything you need to be hooked on Wattpad fanfictions. It has a bit of laughter, a bit of sadness and a bit of sus but altogether it forms one heart-stopping story. Set in a world where it is not normal for a weiner dog to date a rat the two animals fall in love, but they know that it is not allowed. The two know that they are madly in love with eachother but can't get over their diffrences. </p>
+  <h4 style="font-size: 32px; font-family: Arial; text-align:center"><b><i>Will love win in the end? Read <a href="https://www.wattpad.com/">here</a> to find out!</i></b></h4>
